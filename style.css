@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Varela+Round&display=swap');
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: lightgrey ;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px ;
+  line-height: 50px;
+  color: rgb(50, 50, 50);
+}
+
+.container {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.card {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  text-align: center;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.p-centered {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+  color: rgb(100, 100, 100);
+  padding-bottom: 10px;
+}
+
+.image-container {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.img-fit-parent {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color:rgb(22, 101, 22);
+  padding-top: 10px;
+}
+
+h2 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(22, 101, 22);
+  padding-top: 20px;
+}
+
+a {
+  color: rgb(113, 98, 168);
+  text-decoration:underline dotted rgb(113, 98, 168);
+}
+
+a :hover {
+  color: red
+}
+
+.main-content {
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.pictures-inline {
+  display: flex;
+  justify-content:space-evenly;
+  padding: 1px;
+}
+
+
+.third-page-picture {
+  width: 1/3;
+  min-width: 33%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.photo-title {
+  font-size: 30px ;
+  color: grey;
+}
+
+.img-white-border {
+  border: 1px solid white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
